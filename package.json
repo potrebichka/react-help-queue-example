@@ -6,15 +6,15 @@
   "scripts": {
     "lint": "eslint src/** src/**/**; exit 0",
     "lint-fix": "eslint src/** src/**/** --fix; exit 0",
-    "test": "jest; exit 0",
+    "test": "jest",
     "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/potrebichka/react-help-queue-example.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Nina Potrebich",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/potrebichka/react-help-queue-example/issues"
   },
@@ -24,7 +24,9 @@
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-redux": "^5.0.6",
     "react-router-dom": "^4.0.0",
+    "redux": "^3.7.2",
     "uuid": "^3.2.1"
   },
   "devDependencies": {

@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TicketList from './TicketList';
 
 function TicketDetail(props) {
   return (
     <div>
       <hr/>
       <h1>{props.selectedTicket.names} - {props.selectedTicket.location}</h1>
-      <h2>Submitted {props.selectedTicket.formattedWaitTime} ago</h2>
+      {/* <h2>Submitted {props.selectedTicket.formattedWaitTime} ago</h2> */}
       <h4><em>{props.selectedTicket.issue}</em></h4>
       <hr/>
     </div>
@@ -15,7 +14,7 @@ function TicketDetail(props) {
 }
 
 TicketDetail.propTypes = {
-  selectedTicket: PropTypes.object
+  selectedTicket: PropTypes.string
 };
 
 export default TicketDetail;

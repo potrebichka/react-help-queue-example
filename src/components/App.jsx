@@ -61,12 +61,12 @@ class App extends React.Component {
 
 App.propTypes = {
   masterTicketList: PropTypes.object
-}
+};
 
 const mapStateToProps = state => {
   return {
-    masterTicketList: state
-  }
-}
+    masterTicketList: state.masterTicketList
+  };
+};
 
 export default withRouter(connect(mapStateToProps)(App));

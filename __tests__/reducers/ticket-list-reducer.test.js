@@ -32,6 +32,8 @@ describe('ticketListReducer', () => {
                 id: id
             }
         })
-    })
+    });
+
+    
   
   });

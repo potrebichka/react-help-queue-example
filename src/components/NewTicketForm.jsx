@@ -19,7 +19,7 @@ function NewTicketForm(props){
       location: _location.value,
       issue: _issue.value,
       timeOpen: new Date().getTime()
-    }
+    };
     dispatch(action);
     _names.value = '';
     _location.value='';
